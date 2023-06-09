@@ -2,45 +2,47 @@ package main
 
 import "fmt"
 
-func main() {
-	var name string
-	var car string 
-	var clothe string
-	
-	car = "camery"
-	name = "emeka"
-	clothe = "agbada"
-
-	var age int
-	var numKid int
-	var shoes int
-
-	age = 45
-	numKid = 9
-	shoes = 4
-
-	fmt.Fprintf("")
-
-}
-
-// import "fmt"
-
-// func main() {
-// 	car := "volvo"
-// 	name := "chidi"
-// 	cloth := "agbada"
-
-// 	var age int
-// 	var numKids int
-// 	var shoes int
-
-// 	age = 46
-// 	numKids = 2
-// 	shoes = 3
-
-// 	fmt.Printf("The guy's name is %s and the name of his car is %s and he also likes wearing %s. He is %dyrs old, has %d kids and also has %d of pairs shoes", name, car, cloth, age, numKids, shoes)
-
+// func addition(num4, num5 int) int {
+// 	answer := num4 + num5
+// 	return answer
 // }
 
+// func substraction(num1, num2 int) int  {
+// 	answer := num1 - num2
+// 	return answer
+
+// type DivisionResult struct {
+// 	Quotient int
+// 	Remainder int
+// }
+
+// func divide(divide, divisor int) DivisionResult  {
+// 		Quotient := 180 / 60
+// 		Remainder:= 60 % 20
+
+// 		result := DivisionResult{
+// 			Quotient: Quotient,
+// 			Remainder: Remainder,
+// 		}
+		
+// 		return result
+
+func multiply()  {
+	
+}
+// 	}
 
 
+func main()  {
+	// answer := addition(40, 60)
+	// fmt.Println(answer)
+
+	// answer := substraction(60, 45)
+	// fmt.Println(answer)
+
+	// dividend := 13 
+	// divisor := 5
+
+	// result := divide(dividend, divisor)
+	// fmt.Println("Quotient: %d, Remainder: %d\n", result.Quotient,result.Remainder)
+}
