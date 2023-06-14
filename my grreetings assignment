@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func greeting(name string) {
+	message := fmt.Sprintf("Goodday %s, how is your daughter going", name)
+	fmt.Println(message)
+}
+
+func main() {
+	name := "emeka" // Replace with the desired name
+	greeting(name)
+}
